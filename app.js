@@ -68,7 +68,7 @@ function crearProducto(producto) {
   btnCarrito.className = "btn-carrito";
   btnCarrito.textContent = "Agregar al Carrito";
   btnCarrito.addEventListener("click", function () {
-    btnCarrito.textContent = "Agregado ✅";
+    btnCarrito.textContent = "Agregado ";
     btnCarrito.disabled = true;
   });
 
